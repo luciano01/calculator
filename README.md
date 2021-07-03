@@ -1,5 +1,5 @@
 # Calculator
-Simple calculator with the basic of math.
+(Developing...) Simple calculator with the basic of math.
 
 ## For developers
 > To clone locally
