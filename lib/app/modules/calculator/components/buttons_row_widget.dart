@@ -1,0 +1,21 @@
+import 'package:calculator/app/modules/calculator/components/button_widget.dart';
+import 'package:flutter/material.dart';
+
+class ButtonsRow extends StatelessWidget {
+  final List<Button>? buttons;
+  const ButtonsRow({
+    Key? key,
+    required this.buttons,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      flex: 1,
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: buttons!,
+      ),
+    );
+  }
+}
